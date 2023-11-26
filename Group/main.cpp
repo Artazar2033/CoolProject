@@ -5,6 +5,7 @@ using namespace std;
  int main()
 
  {
+    int count; // переменная для выбора в switch
     double a, b;
     cout << "Enter the first number: ";
     cin >> a;
@@ -26,12 +27,12 @@ using namespace std;
  }
  case 3: // если count = 3
  {
-     cout << "Feature in development" <<endl; // выполнить умножение
+     cout << MyMul(a, b)<<endl; // выполнить умножение
      break;
  }
  case 4: // если count = 4
  {
-    cout << "Feature in development" <<endl; // выполнить деление
+    cout << MyDiv(a, b)<<endl; // выполнить деление
     break;
  }
  default: // если count равно любому другому значению
