@@ -5,7 +5,6 @@ using namespace std;
  int main()
 
  {
-    int count; // переменная для выбора в switch
     double a, b;
     cout << "Enter the first number: ";
     cin >> a;
