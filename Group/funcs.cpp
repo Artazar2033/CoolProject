@@ -1,7 +1,11 @@
 #include "funcs.h"
 
-}
-double MySub(double a, double b)
+double MySum(a,b)
+ {
+ return a + b;
+ }
+
+double MySub(a, b)
 {
 return a - b;
-
+}

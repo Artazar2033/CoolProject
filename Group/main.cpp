@@ -1,11 +1,12 @@
 #include <iostream>
- using namespace std;
+#include "funcs.h"
+using namespace std;
 
  int main()
 
  {
     int count; // переменная для выбора в switch
-    double a, b; // переменные для хранения операндов
+    double a, b;
     cout << "Enter the first number: ";
     cin >> a;
     cout << "Enter the second numbe: ";
@@ -16,12 +17,12 @@
  {
  case 1: // если count = 1
  {
-     cout << "Feature in development" <<endl; // выполнить сложение
+     cout << MySum(a, b)<<endl; // выполнить сложение
      break;
  }
  case 2: // если count = 2
  {
-     cout << "Feature in development" <<endl;  // выполнить вычитание
+     cout << MySub(a, b) <<endl;  // выполнить вычитание
      break;
  }
  case 3: // если count = 3
